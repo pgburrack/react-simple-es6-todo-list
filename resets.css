@@ -1,0 +1,23 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+button, input[type="checkbox"] {
+    outline: none;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}

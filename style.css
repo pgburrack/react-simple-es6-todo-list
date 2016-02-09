@@ -1,0 +1,73 @@
+.todo-app {
+  margin-top: 20px;
+}
+.todo-new {
+  height: 54px;
+  font-size: 2rem;
+}
+
+.todo-header {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    padding: 6px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.todo-body {
+  padding: 15px 0;
+}
+
+.todo-item {
+  position: relative;
+}
+.todo-list li .todo-text {
+  font-size: 3rem;
+  color: #555454;
+  margin-left: 1rem;
+  font-weight: normal;
+}
+
+.todo-list li:hover .destroy {
+    display: inline-block;
+}
+.todo-list li.completed .todo-text {
+  color: #d9d9d9;
+  text-decoration: line-through;
+}
+.todo-list li .destroy {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+    font-size: 40px;
+    margin-bottom: 11px;
+    transition: color 0.2s ease-out;
+    cursor: pointer;
+    color: #B5B5B5;
+}
+
+.todo-list li .destroy:hover {
+    color: #337AB7;
+}
+
+/*.todo-list li .todo-item-completed {
+  text-align: center;
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.todo-list li .todo-item-completed:after {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40"…"50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3"/></svg>');
+}*/
